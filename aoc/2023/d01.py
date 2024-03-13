@@ -1,7 +1,7 @@
+import re
 from aoc.util import load_input_lines
 
 
-# Part 1.
 def p1(ls):
     sum = 0
     for l in ls:
@@ -9,9 +9,6 @@ def p1(ls):
         sum += digits[0] * 10 + digits[-1]
     print(sum)
 
-
-# Part 2
-import re
 
 nums = {
     "one": 1,
